@@ -11,7 +11,7 @@ This project is a **Security Authentication Module** built in Python. It evaluat
 * **Complexity Validation:** Uses **Regular Expressions (Regex)** to enforce:
     * Minimum 8-character length.
     * Requirement of uppercase, lowercase, numbers, and symbols.
-* **Human-Centric Feedback:** Provides clear, encouraging error handling to improve the user "Glow-Up" experience.
+* **Human-Centric Feedback:** Provides clear, encouraging error handling to improve the user experience.
 
 ## Technical Stack
 * **Language:** Python 3.x
