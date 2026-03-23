@@ -10,9 +10,10 @@ def password_check(password):
     # ... (other checks) ...
     return "✅ Password Secured!"
 
-print("--- 🌸 Secure Entry Portal 🌸 ---")
-# Instead of input(), we use getpass.getpass()
-# This will hide the characters as you type them!
-user_input = getpass.getpass("Enter your secret password (it will be hidden): ")
+if __name__ == '__main__':
+    print("--- 🌸 Secure Entry Portal 🌸 ---")
+    # Instead of input(), we use getpass.getpass()
+    # This will hide the characters as you type them!
+    user_input = getpass.getpass("Enter your secret password (it will be hidden): ")
 
-print(password_check(user_input))
+    print(password_check(user_input))
